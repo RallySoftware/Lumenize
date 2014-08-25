@@ -16,3 +16,5 @@ lumenize.map
 .js
 .map
 play
+build
+bower_components

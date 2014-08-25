@@ -119,10 +119,10 @@ task('publish', 'Publish to npm', () ->
 
 task('build', 'Build with browserify and place in ./deploy', () ->
   console.log('building...')
-  b = browserify()
-  b.use(fileify('files', __dirname + '/node_modules/tztime/files'))
-  b.ignore(['files'])
-  b.require("./lumenize")
+  # b = browserify()
+  # b.use(fileify('files', __dirname + '/node_modules/tztime/files'))
+  # b.ignore(['files'])
+  # b.require("./lumenize")
   {name, version} = require('./package.json')
   fileString = """
     /*

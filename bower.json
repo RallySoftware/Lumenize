@@ -11,5 +11,10 @@
   "ignore": [
     "/*",
     "!deploy/*"
-  ]
+  ],
+  "devDependencies": {
+    "timezone-js": "~0.4.11",
+    "lodash": "~2.4.1",
+    "JSON-js": "*"
+  }
 }
