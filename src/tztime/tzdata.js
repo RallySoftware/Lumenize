@@ -1,5 +1,6 @@
-define('tzdata', [], function() {
-    return {
+(function() {
+	define('tzdata', [], function() {
+		return {
 "tz/africa":"Rule\tAlgeria\t1916\tonly\t-\tJun\t14\t23:00s\t1:00\tS\n"+
 "Rule\tAlgeria\t1916\t1919\t-\tOct\tSun>=1\t23:00s\t0\t-\n"+
 "Rule\tAlgeria\t1917\tonly\t-\tMar\t24\t23:00s\t1:00\tS\n"+
@@ -4180,6 +4181,8 @@ define('tzdata', [], function() {
 "\t\t\t-4:30\t-\tVET\t1965\t     # Venezuela Time\n"+
 "\t\t\t-4:00\t-\tVET\t2007 Dec  9 03:00\n"+
 "\t\t\t-4:30\t-\tVET\n"+
-""}
+""};
 
-});
+	}); // end define
+
+}).call(this);
