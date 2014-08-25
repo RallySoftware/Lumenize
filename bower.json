@@ -7,7 +7,6 @@
   ],
   "main": "deploy/Lumenize-min.js",
   "license": "MIT",
-  "private": true,
   "ignore": [
     "/*",
     "!deploy/*"
